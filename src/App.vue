@@ -3,9 +3,7 @@
     <v-content>
       <router-view/>
     </v-content>
-    <v-footer>
-      <span class="secondary--text ml-3">Скоро здесь будет клевый новый сайт!</span>
-    </v-footer>
+    <p align="center" class="white--text ml-3">Скоро здесь будет новый крутой сайт Re:High Studio!</p>
   </v-app>
 </template>
 

@@ -1,28 +1,27 @@
 <template>
   <v-container fluid>
     <v-layout column align-center class="mt-5">
-      <img src="@/assets/logo.png" alt="Vuetify.js" class="mb-5">
-      <h1 class="white--text">Re:High Studio</h1>
+      <img src="@/assets/icon/logo.svg" id="rehigh_logo" alt="Re:High Studio">
       <p class="white--text">Хотите свой сайт? Свяжитесь с нами:</p>
-      <v-chip>
+      <v-chip color="white">
         <v-avatar>
           <img src="@/assets/icon/contacts/inst.svg" height="30px" alt="">
         </v-avatar>
         <a href="https://www.instagram.com/rehighstudio/" target="_blank">Instagram</a>
       </v-chip>
-      <v-chip>
+      <v-chip color="white">
         <v-avatar>
           <img src="@/assets/icon/contacts/email.svg" height="30px" alt="">
         </v-avatar>
         ReHighStudio@gmail.com
       </v-chip>
-      <v-chip>
+      <v-chip color="white">
         <v-avatar>
           <img src="@/assets/icon/contacts/phone.svg" height="30px" alt="">
         </v-avatar>
-        8 (999) 467 78 57,&nbsp&nbsp8 (923) 128 69 28
+        8 (999) 467 78 57 &nbsp/&nbsp 8 (923) 128 69 28
       </v-chip>
-      <v-chip>
+      <v-chip color="white">
         <v-avatar>
           <img src="@/assets/icon/contacts/vk.svg" height="30px" alt="">
         </v-avatar>
@@ -50,6 +49,11 @@
   }
 
   a {
-    color: #038bd6;
+    color: #6a01be;
+  }
+
+  #rehigh_logo {
+    height: 220px;
+    margin-bottom: 20px;
   }
 </style>
