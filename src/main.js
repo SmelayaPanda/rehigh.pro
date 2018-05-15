@@ -18,6 +18,7 @@ import {
   transitions
 } from 'vuetify'
 import '../node_modules/vuetify/src/stylus/app.styl'
+import '@/styles/global.scss'
 
 Vue.use(Vuetify, {
   components: {
@@ -35,8 +36,8 @@ Vue.use(Vuetify, {
   },
   theme: {
     primary: '#039be5',
-    secondary: '#100f10',
-    accent: '#82B1FF',
+    secondary: '#151823',
+    accent: '#ffffff',
     error: '#FF5252',
     info: '#616161',
     success: '#4CAF50',
