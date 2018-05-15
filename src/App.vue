@@ -28,20 +28,9 @@
   }
 </script>
 <style lang="scss">
-  * {
-    box-sizing: border-box;
-  }
-
-  html,
-  body {
-    margin: 0 auto;
-    height: 100%;
-  }
-
   body {
     display: flex;
     align-items: center;
-    font-family: monospace;
     justify-content: center;
     background-color: darken(#252B37, 4%);
   }
@@ -83,8 +72,7 @@
   #logo_wrap {
     position: relative;
     width: 440px;
-    height: 300px;
-    line-height: 30vw;
+    height: 290px;
     text-align: center;
     color: #252B37;
     background-color: #151823;
@@ -107,12 +95,10 @@
   #footer_text {
     text-align: center;
     color: white;
+    padding: 20px;
   }
 
-  @media only screen and (max-width: 700px) {
-    #logo_wrap {
-      width: 220px;
-    }
+  @media only screen and (max-width: 600px) {
     #footer_text {
       font-size: 11px;
     }

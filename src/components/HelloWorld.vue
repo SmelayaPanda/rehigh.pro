@@ -1,7 +1,8 @@
 <template>
   <v-container fluid>
     <v-layout column align-center class="mt-5">
-      <div id="logo_wrap">
+      <div :id="this.$vuetify.breakpoint.name === 'xs' ||
+                this.$vuetify.breakpoint.name === 'sm' ? '' : 'logo_wrap'">
         <img src="@/assets/icon/logo.svg" id="rehigh_logo" alt="Re:High Studio">
       </div>
       <p class="white--text">Хотите свой сайт? Свяжитесь с нами:</p>
@@ -36,21 +37,6 @@
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
-
-  h1, h2 {
-    font-weight: normal;
-  }
-
-  ul {
-    list-style-type: none;
-    padding: 0;
-  }
-
-  li {
-    display: inline-block;
-    margin: 0 10px;
-  }
-
   a {
     color: #6a01be;
   }
