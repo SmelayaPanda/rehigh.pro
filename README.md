@@ -1,4 +1,4 @@
-# rehigh.pro
+# https://rehigh.pro/
 
 > Re:High Studio Website
 
