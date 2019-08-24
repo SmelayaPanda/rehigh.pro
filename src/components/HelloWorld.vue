@@ -17,7 +17,7 @@
         <v-avatar>
           <img src="@/assets/icon/contacts/phone.svg" height="30px" alt="">
         </v-avatar>
-        8 (999) 467 78 57 &nbsp/&nbsp 8 (923) 128 69 28
+        8 (999) 468 52 97 &nbsp/&nbsp 8 (923) 128 69 28
       </v-chip>
       <v-chip color="accent">
         <v-avatar>
